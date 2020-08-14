@@ -1,0 +1,12 @@
+--- package.json	2020-08-14 22:43:31.658312936 +0200
++++ new.json	2020-08-14 22:43:47.249745074 +0200
+@@ -4,6 +4,9 @@
+   "description": "A lightweight @discord client mod focused on simplicity and performance",
+   "license": "SEE LICENSE IN LICENSE",
+   "main": "index.js",
++  "bin": {
++    "powercord": "injectors/index.js"
++  },
+   "scripts": {
+     "test": "jest",
+     "lint": "eslint --ext js --ext jsx src",
